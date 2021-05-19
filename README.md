@@ -24,3 +24,28 @@ reverse: Reverse the list.
 Initialize your list and read in the value of  followed by  lines of commands where each command will be of the  types listed above. 
 
 Iterate through each command in order and perform the corresponding operation on your list.
+
+7) Hackerrank Challenge - HR_StringUpdate - to check whether a substring exits in a string and its count
+
+8) Printing the Door mat- 
+    Size: 7 x 21 
+    ---------.|.---------
+    ------.|..|..|.------
+    ---.|..|..|..|..|.---
+    -------WELCOME-------
+    ---.|..|..|..|..|.---
+    ------.|..|..|.------
+    ---------.|.---------
+    
+    Size: 11 x 33
+    ---------------.|.---------------
+    ------------.|..|..|.------------
+    ---------.|..|..|..|..|.---------
+    ------.|..|..|..|..|..|..|.------
+    ---.|..|..|..|..|..|..|..|..|.---
+    -------------WELCOME-------------
+    ---.|..|..|..|..|..|..|..|..|.---
+    ------.|..|..|..|..|..|..|.------
+    ---------.|..|..|..|..|.---------
+    ------------.|..|..|.------------
+    ---------------.|.---------------
