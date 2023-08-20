@@ -1,8 +1,30 @@
 
-user_prompt = "Enter a todo...\n"
+user_prompt = "do you want to add or show or edit a todo list item? or exit?\nType ..add.. or ..show..or..edit..else exit\n "
 todo_list =[]
 
 while 1>0 :
-	todo = input(user_prompt)
-	todo_list.append(todo)
-	print(todo_list)
+	user_action = input(user_prompt)
+	user_action = user_action.strip()
+	# using the strip funtion to remove any unwanted spaces 
+
+	if user_action == "add":
+		add_new_todo = input("enter the new todo....")	
+		todo_list.append(add_new_todo)
+
+	if user_action == "show":
+		bullet_num =1
+		for item in todo_list:			
+			print("\n",bullet_num,":",item)
+			bullet_num = bullet_num+1
+		
+	if user_action == "edit":
+		number = int(input("enter the todo item number to be edited\n"))
+		edited_todo = input("enter the todo with which above should be replaced with:\n")
+		todo_list[number-1]=edited_todo
+		print("To Do list updated")
+
+	if user_action == "exit":
+		print("thank you !!")
+		break
+
+	
